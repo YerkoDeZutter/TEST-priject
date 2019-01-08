@@ -32,12 +32,14 @@
 
 #here-you-go{
   position: fixed;
-  width: 80%;
+  width: 90%;
+  bottom: 50px;
+  left: 5%;
 }
 
 .answer{
   width: 100%;
   border: solid 5px white;
   background-color: rgba(0, 0, 0, .5);
-  box-shadow: 5px 0 0;
+  box-shadow: 0 5px 5px darkgray;
 }
