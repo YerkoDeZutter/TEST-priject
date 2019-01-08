@@ -9,7 +9,16 @@
 
 /*POTIONS*/
 
+#pick-one{
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  align-items: center;
+}
+
 .option{
-  width: 300px;
-  height: 300px;
+  width: 100px;
+  height: 100px;
+  background-color: #2b5fc3;
+  cursor: pointer;
 }
