@@ -39,8 +39,11 @@
 }
 
 .answer{
+  position: absolute;
+  bottom: 0;
   width: 100%;
-  border: solid 10px white;
+  border: solid 10px rgb(214, 214, 214);
   background-color: rgba(0, 0, 0, .5);
-  box-shadow: 0 5px 5px darkgray;
+  box-shadow: 5px 5px 0 darkgray;
+  display: flex;
 }
