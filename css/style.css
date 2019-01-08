@@ -22,3 +22,22 @@
   background-color: #2b5fc3;
   cursor: pointer;
 }
+
+
+
+
+
+
+/*ANSWERS*/
+
+#here-you-go{
+  position: fixed;
+  width: 80%;
+}
+
+.answer{
+  width: 100%;
+  border: solid 5px white;
+  background-color: rgba(0, 0, 0, .5);
+  box-shadow: 5px 0 0;
+}
