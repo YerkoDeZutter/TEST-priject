@@ -70,3 +70,14 @@
 .answer img{
   float: right;
 }
+
+.arow{
+  margin-left: 50%;
+  margin-top: 10vh;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 0 25px 50px;
+  border-color: transparent transparent transparent #000000;
+
+}
