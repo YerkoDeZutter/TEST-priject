@@ -5,6 +5,14 @@
   font-weight: bold;
 }
 
+#container{
+  margin: auto;
+  width: 100%;
+  min-width: 615px;
+  max-width: 1000px;
+}
+
+
 
 
 
@@ -43,8 +51,10 @@
   position: fixed;
   width: 90%;
   bottom: 50px;
-  left: 5%;
-  margin-left: -5px;
+  margin-right: auto;
+  margin-left: 5%;
+  min-width: calc(615px - 61.5px);
+  max-width: calc(1000px - 100px);
 }
 
 .answer{
@@ -55,7 +65,7 @@
   animation: squiggly-anim 0.7s linear infinite;
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: calc(100% - 5px);
   border: solid 7px rgb(0, 0, 0);
   overflow: hidden;
   box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.68);
@@ -131,5 +141,17 @@
 
   100% {
     filter: url('#squiggly-4');
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #here-you-go{
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 615px) {
+  #here-you-go{
+    margin-left: 30px;
   }
 }
