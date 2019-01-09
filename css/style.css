@@ -42,16 +42,22 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  border: solid 10px rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0);
+  border: solid 7px rgb(0, 0, 0);
+  background: url(../img/background1.jpg) rgba(0, 0, 0, 0);
+  background-position: 100% 0px;
+  background-repeat: repeat-y;
+  overflow: hidden;
   box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.68);
   display: none;
 }
 
-/*.answer p{
+.answer p{
   display: block;
   width: 40%;
-}*/
+  background-color: white;
+  padding: 5px;
+  border: solid 5px rgb(0, 0, 0);
+}
 
 .answer img{
   float: right;
