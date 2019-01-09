@@ -1,6 +1,8 @@
 *{
   padding: 0;
   margin: 0;
+  font-family: 'Exo', sans-serif;
+  font-weight: bold;
 }
 
 
@@ -39,7 +41,7 @@
 }
 
 .answer{
-  position: relative;
+  position: absolute;
   bottom: 0;
   width: 100%;
   border: solid 7px rgb(0, 0, 0);
@@ -54,13 +56,15 @@
 .answer p{
   position: absolute;
   top: 5%;
-  left: 30px;
+  left: 5%;
   display: block;
   width: 45%;
   height: 80%;
   background-color: white;
   padding: 5px;
   border: solid 5px rgb(0, 0, 0);
+  text-align: center;
+  line-height: 950%;
 }
 
 .answer img{
