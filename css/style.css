@@ -43,8 +43,16 @@
   bottom: 0;
   width: 100%;
   border: solid 10px rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, .5);
+  background: rgba(0, 0, 0, 0);
   box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.68);
-  display: flex;
   display: none;
+}
+
+/*.answer p{
+  display: block;
+  width: 40%;
+}*/
+
+.answer img{
+  float: right;
 }
