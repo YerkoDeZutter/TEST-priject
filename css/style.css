@@ -73,18 +73,22 @@
   z-index: -1;
 }
 
-.answer p{
+.answer section{
+  display: flex;
+  align-items: center;
   position: absolute;
   top: 5%;
   left: 5%;
-  display: block;
   width: 45%;
   height: 80%;
   background-color: white;
   padding: 5px;
   border: solid 5px rgb(0, 0, 0);
   text-align: center;
-  line-height: 950%;
+}
+
+.answer p{
+  margin: auto;
 }
 
 .answer img{
