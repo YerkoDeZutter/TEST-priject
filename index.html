@@ -17,7 +17,7 @@
 
     <div class="option">
 
-    A
+      A
 
     </div>
 
@@ -40,41 +40,91 @@
 
     <div class="answer">
 
-      <p>does not like the left button</p>
+      <div class="swiggle">
 
-      <img src="img/komi2.gif" height="200px" alt="">
+        <p>does not like the left button</p>
 
-      <div class="arow"></div>
+        <img src="img/komi2.gif" height="200px" alt="">
+
+        <div class="arow"></div>
+
+      </div>
+
+      <div class="swig-BG"></div>
+
 
     </div>
 
     <div class="answer">
 
-      <p>at least it's not left</p>
+      <div class="swiggle">
 
-      <img src="img/komi1.gif" height="200px" alt="">
+        <p>at least it's not left</p>
 
-      <div class="arow"></div>
+        <img src="img/komi1.gif" height="200px" alt="">
+
+        <div class="arow"></div>
+
+      </div>
+
+      <div class="swig-BG"></div>
 
     </div>
 
     <div class="answer">
 
-      <p>whit this butten she gets a cookie</p>
+      <div class="swiggle">
 
-      <img src="img/komi3.gif" height="200px" alt="">
+        <p>whit this butten she gets a cookie</p>
 
-      <div class="arow"></div>
+        <img src="img/komi3.gif" height="200px" alt="">
+
+        <div class="arow"></div>
+
+      </div>
+
+      <div class="swig-BG"></div>
 
     </div>
 
-  </div>
+
+
+
+
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+      <defs>
+
+
+        <filter id="squiggly-0">
+          <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="0" />
+          <feDisplacementMap id="displacement" in="SourceGraphic" in2="noise" scale="2" />
+        </filter>
+        <filter id="squiggly-1">
+          <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="1" />
+          <feDisplacementMap in="SourceGraphic" in2="noise" scale="3" />
+        </filter>
+
+        <filter id="squiggly-2">
+          <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="2" />
+          <feDisplacementMap in="SourceGraphic" in2="noise" scale="2" />
+        </filter>
+        <filter id="squiggly-3">
+          <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="3" />
+          <feDisplacementMap in="SourceGraphic" in2="noise" scale="3" />
+        </filter>
+
+        <filter id="squiggly-4">
+          <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="4" />
+          <feDisplacementMap in="SourceGraphic" in2="noise" scale="2" />
+        </filter>
+      </defs>
+    </svg>
 
 
 
 
 
-  <script src="js/index.js"></script>
+    <script src="js/index.js"></script>
 
 </body>
 
