@@ -12,6 +12,10 @@ $(".option").click(function(evt){
     // Animation complete
   });
 
+  var imgC = clickObj + 1
+
+  $("img").attr("src", "img/komi" + imgC.toString() + ".gif");
+
   $(answers[clickObj]).fadeIn( "slow", function() {
     // Animation complete
   });
