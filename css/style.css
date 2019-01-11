@@ -59,6 +59,7 @@
 
 .answer{
   display: none;
+  transform-origin: center;
 }
 
 .swiggle{
